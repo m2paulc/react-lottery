@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@layer base {
+  h1 {
+    @apply block text-5xl  mb-2 mt-0  
+  }
+  h2 {
+    @apply block text-4xl mb-2 mt-0
+  }
+  h3 {
+    @apply block text-3xl mb-2 mt-0
+  }
+  h4 {
+    @apply block text-2xl mb-2 mt-0
+  }
+  h5 {
+    @apply block text-xl mb-2 mt-0
+  }
+}
